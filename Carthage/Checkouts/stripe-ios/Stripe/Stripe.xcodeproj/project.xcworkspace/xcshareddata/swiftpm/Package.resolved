@@ -1,0 +1,32 @@
+{
+  "originHash" : "f35d698987403165b0c8c08a69153bd4411fd2ee8a7716466f4db32e901677ff",
+  "pins" : [
+    {
+      "identity" : "ios-snapshot-test-case",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/uber/ios-snapshot-test-case",
+      "state" : {
+        "revision" : "7b10770333a961be6e5a41c9ce04b8c6d3990126",
+        "version" : "8.0.0"
+      }
+    },
+    {
+      "identity" : "ocmock",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/erikdoe/ocmock",
+      "state" : {
+        "revision" : "2c0bfd373289f4a7716db5d6db471640f91a6507"
+      }
+    },
+    {
+      "identity" : "ohhttpstubs",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/davidme-stripe/OHHTTPStubs",
+      "state" : {
+        "branch" : "stripe-mock",
+        "revision" : "5e90dfd42873ab8de026735d0725ad618b8ca7dd"
+      }
+    }
+  ],
+  "version" : 3
+}

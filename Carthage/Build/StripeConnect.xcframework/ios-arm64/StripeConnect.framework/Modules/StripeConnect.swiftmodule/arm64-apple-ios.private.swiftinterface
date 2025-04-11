@@ -1,0 +1,251 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StripeConnect
+import AuthenticationServices
+import Foundation
+import JavaScriptCore
+import SafariServices
+@_exported import StripeConnect
+@_exported @_spi(STP) @_spi(DashboardOnly) import StripeCore
+@_spi(STP) import StripeFinancialConnections
+@_spi(STP) import StripeUICore
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_spi(PrivateBetaConnect) @available(iOS 15, *)
+@_documentation(visibility: public) public protocol AccountOnboardingControllerDelegate : AnyObject {
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) func accountOnboardingDidExit(_ accountOnboarding: StripeConnect.AccountOnboardingController)
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) func accountOnboarding(_ accountOnboarding: StripeConnect.AccountOnboardingController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(PrivateBetaConnect) @available(iOS 15, *)
+@_documentation(visibility: public) extension StripeConnect.AccountOnboardingControllerDelegate {
+  @_spi(PrivateBetaConnect) public func accountOnboardingDidExit(_ accountOnboarding: StripeConnect.AccountOnboardingController)
+  @_spi(PrivateBetaConnect) public func accountOnboarding(_ accountOnboarding: StripeConnect.AccountOnboardingController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(PrivateBetaConnect) @_hasMissingDesignatedInitializers @available(iOS 15, *)
+@_documentation(visibility: public) final public class AccountOnboardingController {
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) weak final public var delegate: (any StripeConnect.AccountOnboardingControllerDelegate)?
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) final public var title: Swift.String? {
+    @_spi(PrivateBetaConnect) get
+    @_spi(PrivateBetaConnect) set
+  }
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) final public func present(from viewController: UIKit.UIViewController, animated: Swift.Bool = true)
+  @_spi(PrivateBetaConnect) @objc deinit
+}
+@_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct AccountCollectionOptions : Swift.Equatable, Swift.Codable {
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public enum FieldOption : Swift.String, Swift.Codable {
+    @_spi(PrivateBetaConnect) case currentlyDue
+    @_spi(PrivateBetaConnect) case eventuallyDue
+    @_spi(PrivateBetaConnect) public init?(rawValue: Swift.String)
+    @_spi(PrivateBetaConnect) public typealias RawValue = Swift.String
+    @_spi(PrivateBetaConnect) public var rawValue: Swift.String {
+      @_spi(PrivateBetaConnect) get
+    }
+  }
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public enum FutureRequirementOption : Swift.String, Swift.Codable {
+    @_spi(PrivateBetaConnect) case omit
+    @_spi(PrivateBetaConnect) case include
+    @_spi(PrivateBetaConnect) public init?(rawValue: Swift.String)
+    @_spi(PrivateBetaConnect) public typealias RawValue = Swift.String
+    @_spi(PrivateBetaConnect) public var rawValue: Swift.String {
+      @_spi(PrivateBetaConnect) get
+    }
+  }
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var fields: StripeConnect.AccountCollectionOptions.FieldOption
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var futureRequirements: StripeConnect.AccountCollectionOptions.FutureRequirementOption
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+  @_spi(PrivateBetaConnect) public static func == (a: StripeConnect.AccountCollectionOptions, b: StripeConnect.AccountCollectionOptions) -> Swift.Bool
+  @_spi(PrivateBetaConnect) public func encode(to encoder: any Swift.Encoder) throws
+  @_spi(PrivateBetaConnect) public init(from decoder: any Swift.Decoder) throws
+}
+@_spi(DashboardOnly) @objc @_hasMissingDesignatedInitializers @available(iOS 15, *)
+@_Concurrency.MainActor @preconcurrency public class NotificationBannerViewController : UIKit.UIViewController {
+  @_spi(DashboardOnly) @_Concurrency.MainActor @preconcurrency weak public var delegate: (any StripeConnect.NotificationBannerViewControllerDelegate)?
+  @_spi(DashboardOnly) @objc deinit
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+public protocol NotificationBannerViewControllerDelegate : AnyObject {
+  @_spi(DashboardOnly) func notificationBanner(_ notificationBanner: StripeConnect.NotificationBannerViewController, didFailLoadWithError error: any Swift.Error)
+  @_spi(DashboardOnly) func notificationBanner(_ notificationBanner: StripeConnect.NotificationBannerViewController, didChangeWithTotal total: Swift.Int, andActionRequired actionRequired: Swift.Int)
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+extension StripeConnect.NotificationBannerViewControllerDelegate {
+  @_spi(DashboardOnly) public func notificationBanner(_ notificationBanner: StripeConnect.NotificationBannerViewController, didFailLoadWithError error: any Swift.Error)
+  @_spi(DashboardOnly) public func notificationBanner(_ notificationBanner: StripeConnect.NotificationBannerViewController, didChangeWithTotal total: Swift.Int, andActionRequired actionRequired: Swift.Int)
+}
+@_spi(PrivateBetaConnect) @available(iOS 15, *)
+@_documentation(visibility: public) extension StripeConnect.EmbeddedComponentManager {
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct Appearance {
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public enum TextTransform {
+      @_spi(PrivateBetaConnect) case none
+      @_spi(PrivateBetaConnect) case uppercase
+      @_spi(PrivateBetaConnect) case lowercase
+      @_spi(PrivateBetaConnect) case capitalize
+      @_spi(PrivateBetaConnect) public static func == (a: StripeConnect.EmbeddedComponentManager.Appearance.TextTransform, b: StripeConnect.EmbeddedComponentManager.Appearance.TextTransform) -> Swift.Bool
+      @_spi(PrivateBetaConnect) public func hash(into hasher: inout Swift.Hasher)
+      @_spi(PrivateBetaConnect) public var hashValue: Swift.Int {
+        @_spi(PrivateBetaConnect) get
+      }
+    }
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct Typography {
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct Style {
+        @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var fontSize: CoreFoundation.CGFloat?
+        @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var weight: UIKit.UIFont.Weight?
+        @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var textTransform: StripeConnect.EmbeddedComponentManager.Appearance.TextTransform?
+        @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+      }
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var font: UIKit.UIFont?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var fontSizeBase: CoreFoundation.CGFloat?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var bodyMd: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var bodySm: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var headingXl: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var headingLg: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var headingMd: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var headingSm: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var headingXs: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var labelMd: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var labelSm: StripeConnect.EmbeddedComponentManager.Appearance.Typography.Style
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+    }
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct Colors {
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var primary: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var text: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var danger: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var background: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var secondaryText: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var border: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var actionPrimaryText: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var actionSecondaryText: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var offsetBackground: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var formBackground: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var formHighlightBorder: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var formAccent: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+    }
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct Button {
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var colorBackground: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var colorBorder: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var colorText: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+    }
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct Badge {
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var colorBackground: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var colorBorder: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var colorText: UIKit.UIColor?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+    }
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct CornerRadius {
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var base: CoreFoundation.CGFloat?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var form: CoreFoundation.CGFloat?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var button: CoreFoundation.CGFloat?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var badge: CoreFoundation.CGFloat?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var overlay: CoreFoundation.CGFloat?
+      @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+    }
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public static let `default`: StripeConnect.EmbeddedComponentManager.Appearance
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var typography: StripeConnect.EmbeddedComponentManager.Appearance.Typography
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var colors: StripeConnect.EmbeddedComponentManager.Appearance.Colors
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var spacingUnit: CoreFoundation.CGFloat?
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var buttonPrimary: StripeConnect.EmbeddedComponentManager.Appearance.Button
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var buttonSecondary: StripeConnect.EmbeddedComponentManager.Appearance.Button
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var badgeNeutral: StripeConnect.EmbeddedComponentManager.Appearance.Badge
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var badgeSuccess: StripeConnect.EmbeddedComponentManager.Appearance.Badge
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var badgeWarning: StripeConnect.EmbeddedComponentManager.Appearance.Badge
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var badgeDanger: StripeConnect.EmbeddedComponentManager.Appearance.Badge
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var cornerRadius: StripeConnect.EmbeddedComponentManager.Appearance.CornerRadius
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init()
+  }
+}
+@_spi(PrivateBetaConnect) @available(iOS 15, *)
+@_documentation(visibility: public) extension StripeConnect.EmbeddedComponentManager {
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct CustomFontSource {
+    @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init(font: UIKit.UIFont, fileUrl: Foundation.URL) throws
+  }
+}
+@_spi(DashboardOnly) @objc @_hasMissingDesignatedInitializers @available(iOS 15, *)
+@_Concurrency.MainActor @preconcurrency public class PayoutsViewController : UIKit.UIViewController {
+  @_spi(DashboardOnly) @_Concurrency.MainActor @preconcurrency weak public var delegate: (any StripeConnect.PayoutsViewControllerDelegate)?
+  @_spi(DashboardOnly) @objc deinit
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+public protocol PayoutsViewControllerDelegate : AnyObject {
+  @_spi(DashboardOnly) func payouts(_ payouts: StripeConnect.PayoutsViewController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+extension StripeConnect.PayoutsViewControllerDelegate {
+  @_spi(DashboardOnly) public func payouts(_ payouts: StripeConnect.PayoutsViewController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(DashboardOnly) @objc @_hasMissingDesignatedInitializers @available(iOS 15, *)
+@_Concurrency.MainActor @preconcurrency public class AccountManagementViewController : UIKit.UIViewController {
+  @_spi(DashboardOnly) @_Concurrency.MainActor @preconcurrency weak public var delegate: (any StripeConnect.AccountManagementViewControllerDelegate)?
+  @_spi(DashboardOnly) @objc deinit
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+public protocol AccountManagementViewControllerDelegate : AnyObject {
+  @_spi(DashboardOnly) func accountManagement(_ accountManagement: StripeConnect.AccountManagementViewController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+extension StripeConnect.AccountManagementViewControllerDelegate {
+  @_spi(DashboardOnly) public func accountManagement(_ accountManagement: StripeConnect.AccountManagementViewController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(DashboardOnly) @objc @_hasMissingDesignatedInitializers @available(iOS 15, *)
+@_Concurrency.MainActor @preconcurrency public class PaymentDetailsViewController : UIKit.UIViewController {
+  @_spi(DashboardOnly) @_Concurrency.MainActor @preconcurrency weak public var delegate: (any StripeConnect.PaymentDetailsViewControllerDelegate)?
+  @_spi(DashboardOnly) @_Concurrency.MainActor @preconcurrency public func setPayment(id: Swift.String)
+  @_spi(DashboardOnly) @objc deinit
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+public protocol PaymentDetailsViewControllerDelegate : AnyObject {
+  @_spi(DashboardOnly) func paymentDetails(_ paymentDetails: StripeConnect.PaymentDetailsViewController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(DashboardOnly) @available(iOS 15, *)
+extension StripeConnect.PaymentDetailsViewControllerDelegate {
+  @_spi(DashboardOnly) public func paymentDetails(_ paymentDetails: StripeConnect.PaymentDetailsViewController, didFailLoadWithError error: any Swift.Error)
+}
+@_spi(PrivateBetaConnect) @available(iOS 15, *)
+@_documentation(visibility: public) final public class EmbeddedComponentManager {
+  @_spi(DashboardOnly) convenience public init(apiClient: StripeCore.STPAPIClient = STPAPIClient.shared, appearance: StripeConnect.EmbeddedComponentManager.Appearance = .default, publicKeyOverride: Swift.String, baseURLOverride: Foundation.URL? = nil, fonts: [StripeConnect.EmbeddedComponentManager.CustomFontSource] = [])
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public init(apiClient: StripeCore.STPAPIClient = STPAPIClient.shared, appearance: StripeConnect.EmbeddedComponentManager.Appearance = .default, fonts: [StripeConnect.EmbeddedComponentManager.CustomFontSource] = [], fetchClientSecret: @escaping () async -> Swift.String?)
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) final public func update(appearance: StripeConnect.EmbeddedComponentManager.Appearance)
+  @_spi(DashboardOnly) final public func createPayoutsViewController() -> StripeConnect.PayoutsViewController
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) final public func createAccountOnboardingController(fullTermsOfServiceUrl: Foundation.URL? = nil, recipientTermsOfServiceUrl: Foundation.URL? = nil, privacyPolicyUrl: Foundation.URL? = nil, skipTermsOfServiceCollection: Swift.Bool? = nil, collectionOptions: StripeConnect.AccountCollectionOptions = .init()) -> StripeConnect.AccountOnboardingController
+  @_spi(DashboardOnly) final public func createPaymentDetailsViewController() -> StripeConnect.PaymentDetailsViewController
+  @_spi(DashboardOnly) final public func createAccountManagementViewController(collectionOptions: StripeConnect.AccountCollectionOptions = .init()) -> StripeConnect.AccountManagementViewController
+  @_spi(DashboardOnly) final public func createNotificationBannerViewController(collectionOptions: StripeConnect.AccountCollectionOptions = .init()) -> StripeConnect.NotificationBannerViewController
+  @_spi(PrivateBetaConnect) @objc deinit
+}
+@_spi(PrivateBetaConnect) @_documentation(visibility: public) public struct EmbeddedComponentError : Swift.Error, Swift.CustomDebugStringConvertible {
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public enum ErrorType : Swift.String {
+    @_spi(PrivateBetaConnect) case apiConnectionError
+    @_spi(PrivateBetaConnect) case authenticationError
+    @_spi(PrivateBetaConnect) case accountSessionCreateError
+    @_spi(PrivateBetaConnect) case invalidRequestError
+    @_spi(PrivateBetaConnect) case rateLimitError
+    @_spi(PrivateBetaConnect) case apiError
+    @_spi(PrivateBetaConnect) public init?(rawValue: Swift.String)
+    @_spi(PrivateBetaConnect) public typealias RawValue = Swift.String
+    @_spi(PrivateBetaConnect) public var rawValue: Swift.String {
+      @_spi(PrivateBetaConnect) get
+    }
+  }
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public let type: StripeConnect.EmbeddedComponentError.ErrorType
+  @_spi(PrivateBetaConnect) @_documentation(visibility: public) public var debugDescription: Swift.String {
+    @_spi(PrivateBetaConnect) get
+  }
+}
+@_spi(PrivateBetaConnect) extension StripeConnect.AccountCollectionOptions.FieldOption : Swift.Equatable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.AccountCollectionOptions.FieldOption : Swift.Hashable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.AccountCollectionOptions.FieldOption : Swift.RawRepresentable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.AccountCollectionOptions.FutureRequirementOption : Swift.Equatable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.AccountCollectionOptions.FutureRequirementOption : Swift.Hashable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.AccountCollectionOptions.FutureRequirementOption : Swift.RawRepresentable {}
+@_spi(PrivateBetaConnect) @available(iOS 15, *)
+extension StripeConnect.EmbeddedComponentManager.Appearance.TextTransform : Swift.Equatable {}
+@_spi(PrivateBetaConnect) @available(iOS 15, *)
+extension StripeConnect.EmbeddedComponentManager.Appearance.TextTransform : Swift.Hashable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.EmbeddedComponentError.ErrorType : Swift.Equatable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.EmbeddedComponentError.ErrorType : Swift.Hashable {}
+@_spi(PrivateBetaConnect) extension StripeConnect.EmbeddedComponentError.ErrorType : Swift.RawRepresentable {}

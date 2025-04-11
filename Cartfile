@@ -1,0 +1,2 @@
+github "https://github.com/stripe/stripe-ios" >= 24.0.0
+#write branch name after repo in quotes

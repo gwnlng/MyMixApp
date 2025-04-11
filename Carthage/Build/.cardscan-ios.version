@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "cea2b98b96426258e3cf16ab2b10a02a4c0dc426",
+  "iOS" : [
+    {
+      "name" : "CardScan",
+      "hash" : "f98ee9b8d8d0a9d400f1e61943df1e52a586de6b06bbb1680eda128ea9863333",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}

@@ -1,0 +1,3076 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Stripe",
+    "printedName": "Stripe",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePayments",
+        "printedName": "StripePayments",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePaymentsUI",
+        "printedName": "StripePaymentsUI",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaymentAnalytic",
+        "printedName": "PaymentAnalytic",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "additionalParams",
+            "printedName": "additionalParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Stripe15PaymentAnalyticP16additionalParamsSDySSypGvp",
+            "mangledName": "$s6Stripe15PaymentAnalyticP16additionalParamsSDySSypGvp",
+            "moduleName": "Stripe",
+            "protocolReq": true,
+            "spi_group_names": [
+              "STP"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe15PaymentAnalyticP16additionalParamsSDySSypGvg",
+                "mangledName": "$s6Stripe15PaymentAnalyticP16additionalParamsSDySSypGvg",
+                "moduleName": "Stripe",
+                "genericSig": "<τ_0_0 where τ_0_0 : Stripe.PaymentAnalytic>",
+                "sugared_genericSig": "<Self where Self : Stripe.PaymentAnalytic>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "STP"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "params",
+            "printedName": "params",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Stripe15PaymentAnalyticPAAE6paramsSDySSypGvp",
+            "mangledName": "$s6Stripe15PaymentAnalyticPAAE6paramsSDySSypGvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "STP"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe15PaymentAnalyticPAAE6paramsSDySSypGvg",
+                "mangledName": "$s6Stripe15PaymentAnalyticPAAE6paramsSDySSypGvg",
+                "moduleName": "Stripe",
+                "genericSig": "<τ_0_0 where τ_0_0 : Stripe.PaymentAnalytic>",
+                "sugared_genericSig": "<Self where Self : Stripe.PaymentAnalytic>",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "STP"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Stripe15PaymentAnalyticP",
+        "mangledName": "$s6Stripe15PaymentAnalyticP",
+        "moduleName": "Stripe",
+        "genericSig": "<τ_0_0 : StripeCore.Analytic>",
+        "sugared_genericSig": "<Self : StripeCore.Analytic>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "STP"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Analytic",
+            "printedName": "Analytic",
+            "usr": "s:10StripeCore8AnalyticP",
+            "mangledName": "$s10StripeCore8AnalyticP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "StripeApplePay",
+        "printedName": "StripeApplePay",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPApplePayContextDelegate",
+        "printedName": "STPApplePayContextDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "applePayContext",
+            "printedName": "applePayContext(_:didCreatePaymentMethod:paymentInformation:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPApplePayContext",
+                "printedName": "StripeApplePay.STPApplePayContext",
+                "usr": "c:@M@StripeApplePay@objc(cs)STPApplePayContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPPaymentMethod",
+                "printedName": "StripePayments.STPPaymentMethod",
+                "usr": "c:@M@StripePayments@objc(cs)STPPaymentMethod"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKPayment",
+                "printedName": "PassKit.PKPayment",
+                "usr": "c:objc(cs)PKPayment"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(pl)STPApplePayContextDelegate(im)applePayContext:didCreatePaymentMethod:paymentInformation:completion:",
+            "mangledName": "$s6Stripe26STPApplePayContextDelegateP05applecD0_22didCreatePaymentMethod18paymentInformation10completiony0a5AppleC00bcD0C_0A8Payments010STPPaymentJ0CSo9PKPaymentCySSSg_s5Error_pSgtctF",
+            "moduleName": "Stripe",
+            "genericSig": "<τ_0_0 where τ_0_0 : Stripe.STPApplePayContextDelegate>",
+            "sugared_genericSig": "<Self where Self : Stripe.STPApplePayContextDelegate>",
+            "protocolReq": true,
+            "objc_name": "applePayContext:didCreatePaymentMethod:paymentInformation:completion:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applePayContext",
+            "printedName": "applePayContext(_:didCompleteWith:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPApplePayContext",
+                "printedName": "StripeApplePay.STPApplePayContext",
+                "usr": "c:@M@StripeApplePay@objc(cs)STPApplePayContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPPaymentStatus",
+                "printedName": "StripePayments.STPPaymentStatus",
+                "usr": "c:@M@StripePayments@E@STPPaymentStatus"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(pl)STPApplePayContextDelegate(im)applePayContext:didCompleteWithStatus:error:",
+            "mangledName": "$s6Stripe26STPApplePayContextDelegateP05applecD0_15didCompleteWith5errory0a5AppleC00bcD0C_0A8Payments16STPPaymentStatusOs5Error_pSgtF",
+            "moduleName": "Stripe",
+            "genericSig": "<τ_0_0 where τ_0_0 : Stripe.STPApplePayContextDelegate>",
+            "sugared_genericSig": "<Self where Self : Stripe.STPApplePayContextDelegate>",
+            "protocolReq": true,
+            "objc_name": "applePayContext:didCompleteWithStatus:error:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Stripe@objc(pl)STPApplePayContextDelegate",
+        "mangledName": "$s6Stripe26STPApplePayContextDelegateP",
+        "moduleName": "Stripe",
+        "genericSig": "<τ_0_0 : StripeApplePay._stpinternal_STPApplePayContextDelegateBase>",
+        "sugared_genericSig": "<Self : StripeApplePay._stpinternal_STPApplePayContextDelegateBase>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_stpinternal_STPApplePayContextDelegateBase",
+            "printedName": "_stpinternal_STPApplePayContextDelegateBase",
+            "usr": "c:@M@StripeApplePay@objc(pl)_stpinternal_STPApplePayContextDelegateBase",
+            "mangledName": "$s14StripeApplePay021_stpinternal_STPAppleC19ContextDelegateBaseP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePayments",
+        "printedName": "StripePayments",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePaymentsUI",
+        "printedName": "StripePaymentsUI",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPCustomerEphemeralKeyProvider",
+        "printedName": "STPCustomerEphemeralKeyProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createCustomerKey",
+            "printedName": "createCustomerKey(withAPIVersion:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.AnyHashable : Any]?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.AnyHashable : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(pl)STPCustomerEphemeralKeyProvider(im)createCustomerKeyWithAPIVersion:completion:",
+            "mangledName": "$s6Stripe31STPCustomerEphemeralKeyProviderP014createCustomerD014withAPIVersion10completionySS_ySDys11AnyHashableVypGSg_s5Error_pSgtctF",
+            "moduleName": "Stripe",
+            "genericSig": "<τ_0_0 where τ_0_0 : Stripe.STPCustomerEphemeralKeyProvider>",
+            "sugared_genericSig": "<Self where Self : Stripe.STPCustomerEphemeralKeyProvider>",
+            "protocolReq": true,
+            "objc_name": "createCustomerKeyWithAPIVersion:completion:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Stripe@objc(pl)STPCustomerEphemeralKeyProvider",
+        "mangledName": "$s6Stripe31STPCustomerEphemeralKeyProviderP",
+        "moduleName": "Stripe",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPIssuingCardEphemeralKeyProvider",
+        "printedName": "STPIssuingCardEphemeralKeyProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "createIssuingCardKey",
+            "printedName": "createIssuingCardKey(withAPIVersion:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.AnyHashable : Any]?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.AnyHashable : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.AnyHashable : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AnyHashable",
+                                "printedName": "Swift.AnyHashable",
+                                "usr": "s:s11AnyHashableV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(pl)STPIssuingCardEphemeralKeyProvider(im)createIssuingCardKeyWithAPIVersion:completion:",
+            "mangledName": "$s6Stripe34STPIssuingCardEphemeralKeyProviderP013createIssuingcE014withAPIVersion10completionySS_ySDys11AnyHashableVypGSg_s5Error_pSgtctF",
+            "moduleName": "Stripe",
+            "genericSig": "<τ_0_0 where τ_0_0 : Stripe.STPIssuingCardEphemeralKeyProvider>",
+            "sugared_genericSig": "<Self where Self : Stripe.STPIssuingCardEphemeralKeyProvider>",
+            "protocolReq": true,
+            "objc_name": "createIssuingCardKeyWithAPIVersion:completion:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Stripe@objc(pl)STPIssuingCardEphemeralKeyProvider",
+        "mangledName": "$s6Stripe34STPIssuingCardEphemeralKeyProviderP",
+        "moduleName": "Stripe",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPEphemeralKeyProvider",
+        "printedName": "STPEphemeralKeyProvider",
+        "declKind": "Protocol",
+        "usr": "c:@M@Stripe@objc(pl)STPEphemeralKeyProvider",
+        "mangledName": "$s6Stripe23STPEphemeralKeyProviderP",
+        "moduleName": "Stripe",
+        "genericSig": "<τ_0_0 : Stripe.STPCustomerEphemeralKeyProvider>",
+        "sugared_genericSig": "<Self : Stripe.STPCustomerEphemeralKeyProvider>",
+        "deprecated": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "Available",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "STPCustomerEphemeralKeyProvider",
+            "printedName": "STPCustomerEphemeralKeyProvider",
+            "usr": "c:@M@Stripe@objc(pl)STPCustomerEphemeralKeyProvider",
+            "mangledName": "$s6Stripe31STPCustomerEphemeralKeyProviderP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPFakeAddPaymentPassViewController",
+        "printedName": "STPFakeAddPaymentPassViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "canAddPaymentPass",
+            "printedName": "canAddPaymentPass()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(cm)canAddPaymentPass",
+            "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC03cancdE0SbyFZ",
+            "moduleName": "Stripe",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(requestConfiguration:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Stripe.STPFakeAddPaymentPassViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "STPFakeAddPaymentPassViewController",
+                    "printedName": "Stripe.STPFakeAddPaymentPassViewController",
+                    "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKAddPaymentPassRequestConfiguration",
+                "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any PassKit.PKAddPaymentPassViewControllerDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKAddPaymentPassViewControllerDelegate",
+                    "printedName": "any PassKit.PKAddPaymentPassViewControllerDelegate",
+                    "usr": "c:objc(pl)PKAddPaymentPassViewControllerDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(im)initWithRequestConfiguration:delegate:",
+            "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC20requestConfiguration8delegateACSgSo05PKAddde7RequestI0C_So0kdefG8Delegate_pSgtcfc",
+            "moduleName": "Stripe",
+            "objc_name": "initWithRequestConfiguration:delegate:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Required",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PassKit.PKAddPaymentPassViewControllerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(py)delegate",
+            "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC8delegateSo05PKAdddefG8Delegate_pSgvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PassKit.PKAddPaymentPassViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PKAddPaymentPassViewControllerDelegate",
+                        "printedName": "any PassKit.PKAddPaymentPassViewControllerDelegate",
+                        "usr": "c:objc(pl)PKAddPaymentPassViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(im)delegate",
+                "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC8delegateSo05PKAdddefG8Delegate_pSgvg",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PassKit.PKAddPaymentPassViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PKAddPaymentPassViewControllerDelegate",
+                        "printedName": "any PassKit.PKAddPaymentPassViewControllerDelegate",
+                        "usr": "c:objc(pl)PKAddPaymentPassViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(im)setDelegate:",
+                "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC8delegateSo05PKAdddefG8Delegate_pSgvs",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe35STPFakeAddPaymentPassViewControllerC8delegateSo05PKAdddefG8Delegate_pSgvM",
+                "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC8delegateSo05PKAdddefG8Delegate_pSgvM",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPFakeAddPaymentPassViewController",
+                "printedName": "Stripe.STPFakeAddPaymentPassViewController",
+                "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Stripe",
+            "overriding": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Stripe.STPFakeAddPaymentPassViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "STPFakeAddPaymentPassViewController",
+                    "printedName": "Stripe.STPFakeAddPaymentPassViewController",
+                    "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(im)initWithCoder:",
+            "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Stripe",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "Required",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController(im)viewDidLoad",
+            "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC11viewDidLoadyyF",
+            "moduleName": "Stripe",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Stripe@objc(cs)STPFakeAddPaymentPassViewController",
+        "mangledName": "$s6Stripe35STPFakeAddPaymentPassViewControllerC",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePayments",
+        "printedName": "StripePayments",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePaymentsUI",
+        "printedName": "StripePaymentsUI",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPPinManagementService",
+        "printedName": "STPPinManagementService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiClient",
+            "printedName": "apiClient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPAPIClient",
+                "printedName": "StripeCore.STPAPIClient",
+                "usr": "c:@M@StripeCore@objc(cs)STPAPIClient"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvp",
+            "mangledName": "$s6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "STPAPIClient",
+                    "printedName": "StripeCore.STPAPIClient",
+                    "usr": "c:@M@StripeCore@objc(cs)STPAPIClient"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvg",
+                "mangledName": "$s6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvg",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "STPAPIClient",
+                    "printedName": "StripeCore.STPAPIClient",
+                    "usr": "c:@M@StripeCore@objc(cs)STPAPIClient"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvs",
+                "mangledName": "$s6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvs",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvM",
+                "mangledName": "$s6Stripe23STPPinManagementServiceC9apiClient0A4Core12STPAPIClientCvM",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(keyProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPPinManagementService",
+                "printedName": "Stripe.STPPinManagementService",
+                "usr": "c:@M@Stripe@objc(cs)STPPinManagementService"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPIssuingCardEphemeralKeyProvider",
+                "printedName": "any Stripe.STPIssuingCardEphemeralKeyProvider",
+                "usr": "c:@M@Stripe@objc(pl)STPIssuingCardEphemeralKeyProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPPinManagementService(im)initWithKeyProvider:",
+            "mangledName": "$s6Stripe23STPPinManagementServiceC11keyProviderAcA026STPIssuingCardEphemeralKeyF0_p_tcfc",
+            "moduleName": "Stripe",
+            "objc_name": "initWithKeyProvider:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "retrievePin",
+            "printedName": "retrievePin(_:verificationId:oneTimeCode:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StripePayments.STPIssuingCardPin?, StripePayments.STPPinStatus, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(StripePayments.STPIssuingCardPin?, StripePayments.STPPinStatus, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "StripePayments.STPIssuingCardPin?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "STPIssuingCardPin",
+                            "printedName": "StripePayments.STPIssuingCardPin",
+                            "usr": "c:@M@StripePayments@objc(cs)STPIssuingCardPin"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "STPPinStatus",
+                        "printedName": "StripePayments.STPPinStatus",
+                        "usr": "c:@M@StripePayments@E@STPPinStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(cs)STPPinManagementService(im)retrievePin:verificationId:oneTimeCode:completion:",
+            "mangledName": "$s6Stripe23STPPinManagementServiceC11retrievePin_14verificationId11oneTimeCode10completionySS_S2Sy0A8Payments014STPIssuingCardF0CSg_AH0B6StatusOs5Error_pSgtctF",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updatePin",
+            "printedName": "updatePin(_:newPin:verificationId:oneTimeCode:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StripePayments.STPIssuingCardPin?, StripePayments.STPPinStatus, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(StripePayments.STPIssuingCardPin?, StripePayments.STPPinStatus, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "StripePayments.STPIssuingCardPin?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "STPIssuingCardPin",
+                            "printedName": "StripePayments.STPIssuingCardPin",
+                            "usr": "c:@M@StripePayments@objc(cs)STPIssuingCardPin"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "STPPinStatus",
+                        "printedName": "StripePayments.STPPinStatus",
+                        "usr": "c:@M@StripePayments@E@STPPinStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(cs)STPPinManagementService(im)updatePin:newPin:verificationId:oneTimeCode:completion:",
+            "mangledName": "$s6Stripe23STPPinManagementServiceC9updatePin_03newF014verificationId11oneTimeCode10completionySS_S3Sy0A8Payments014STPIssuingCardF0CSg_AI0B6StatusOs5Error_pSgtctF",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPPinManagementService",
+                "printedName": "Stripe.STPPinManagementService",
+                "usr": "c:@M@Stripe@objc(cs)STPPinManagementService"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPPinManagementService(im)init",
+            "mangledName": "$s6Stripe23STPPinManagementServiceCACycfc",
+            "moduleName": "Stripe",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Stripe@objc(cs)STPPinManagementService",
+        "mangledName": "$s6Stripe23STPPinManagementServiceC",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePaymentsUI",
+        "printedName": "StripePaymentsUI",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPPushProvisioningContext",
+        "printedName": "STPPushProvisioningContext",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiClient",
+            "printedName": "apiClient",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPAPIClient",
+                "printedName": "StripeCore.STPAPIClient",
+                "usr": "c:@M@StripeCore@objc(cs)STPAPIClient"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvp",
+            "mangledName": "$s6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "STPAPIClient",
+                    "printedName": "StripeCore.STPAPIClient",
+                    "usr": "c:@M@StripeCore@objc(cs)STPAPIClient"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvg",
+                "mangledName": "$s6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvg",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "STPAPIClient",
+                    "printedName": "StripeCore.STPAPIClient",
+                    "usr": "c:@M@StripeCore@objc(cs)STPAPIClient"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvs",
+                "mangledName": "$s6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvs",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvM",
+                "mangledName": "$s6Stripe26STPPushProvisioningContextC9apiClient0A4Core12STPAPIClientCvM",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestConfiguration",
+            "printedName": "requestConfiguration(withName:description:last4:brand:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PKAddPaymentPassRequestConfiguration",
+                "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPCardBrand",
+                "printedName": "StripePayments.STPCardBrand",
+                "usr": "c:@M@StripePayments@E@STPCardBrand"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext(cm)requestConfigurationWithName:description:last4:brand:",
+            "mangledName": "$s6Stripe26STPPushProvisioningContextC20requestConfiguration8withName11description5last45brandSo023PKAddPaymentPassRequestF0CSS_SSSgAK0A8Payments12STPCardBrandOtFZ",
+            "moduleName": "Stripe",
+            "static": true,
+            "deprecated": true,
+            "objc_name": "requestConfigurationWithName:description:last4:brand:",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestConfiguration",
+            "printedName": "requestConfiguration(withName:description:last4:brand:primaryAccountIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PKAddPaymentPassRequestConfiguration",
+                "printedName": "PassKit.PKAddPaymentPassRequestConfiguration",
+                "usr": "c:objc(cs)PKAddPaymentPassRequestConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPCardBrand",
+                "printedName": "StripePayments.STPCardBrand",
+                "usr": "c:@M@StripePayments@E@STPCardBrand"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext(cm)requestConfigurationWithName:description:last4:brand:primaryAccountIdentifier:",
+            "mangledName": "$s6Stripe26STPPushProvisioningContextC20requestConfiguration8withName11description5last45brand24primaryAccountIdentifierSo023PKAddPaymentPassRequestF0CSS_SSSgAL0A8Payments12STPCardBrandOALtFZ",
+            "moduleName": "Stripe",
+            "static": true,
+            "objc_name": "requestConfigurationWithName:description:last4:brand:primaryAccountIdentifier:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(keyProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPPushProvisioningContext",
+                "printedName": "Stripe.STPPushProvisioningContext",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "STPIssuingCardEphemeralKeyProvider",
+                "printedName": "any Stripe.STPIssuingCardEphemeralKeyProvider",
+                "usr": "c:@M@Stripe@objc(pl)STPIssuingCardEphemeralKeyProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext(im)initWithKeyProvider:",
+            "mangledName": "$s6Stripe26STPPushProvisioningContextC11keyProviderAcA026STPIssuingCardEphemeralKeyF0_p_tcfc",
+            "moduleName": "Stripe",
+            "objc_name": "initWithKeyProvider:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addPaymentPassViewController",
+            "printedName": "addPaymentPassViewController(_:generateRequestWithCertificateChain:nonce:nonceSignature:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PKAddPaymentPassViewController",
+                "printedName": "PassKit.PKAddPaymentPassViewController",
+                "usr": "c:objc(cs)PKAddPaymentPassViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PassKit.PKAddPaymentPassRequest) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PKAddPaymentPassRequest",
+                    "printedName": "PassKit.PKAddPaymentPassRequest",
+                    "usr": "c:objc(cs)PKAddPaymentPassRequest"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext(im)addPaymentPassViewController:generateRequestWithCertificateChain:nonce:nonceSignature:completionHandler:",
+            "mangledName": "$s6Stripe26STPPushProvisioningContextC28addPaymentPassViewController_35generateRequestWithCertificateChain5nonce0O9Signature17completionHandlerySo05PKAddfghI0C_Say10Foundation4DataVGA2MySo0sfgK0CctF",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPPushProvisioningContext",
+                "printedName": "Stripe.STPPushProvisioningContext",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext(im)init",
+            "mangledName": "$s6Stripe26STPPushProvisioningContextCACycfc",
+            "moduleName": "Stripe",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningContext",
+        "mangledName": "$s6Stripe26STPPushProvisioningContextC",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePayments",
+        "printedName": "StripePayments",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "STPPushProvisioningDetailsParams",
+        "printedName": "STPPushProvisioningDetailsParams",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cardId",
+            "printedName": "cardId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(py)cardId",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC6cardIdSSvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)cardId",
+                "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC6cardIdSSvg",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "certificates",
+            "printedName": "certificates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(py)certificates",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC12certificatesSay10Foundation4DataVGvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)certificates",
+                "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC12certificatesSay10Foundation4DataVGvg",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nonce",
+            "printedName": "nonce",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(py)nonce",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC5nonce10Foundation4DataVvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)nonce",
+                "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC5nonce10Foundation4DataVvg",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nonceSignature",
+            "printedName": "nonceSignature",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(py)nonceSignature",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC14nonceSignature10Foundation4DataVvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)nonceSignature",
+                "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC14nonceSignature10Foundation4DataVvg",
+                "moduleName": "Stripe",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "certificatesBase64",
+            "printedName": "certificatesBase64",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(py)certificatesBase64",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC18certificatesBase64SaySSGvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)certificatesBase64",
+                "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC18certificatesBase64SaySSGvg",
+                "moduleName": "Stripe",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nonceHex",
+            "printedName": "nonceHex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(py)nonceHex",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC8nonceHexSSvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)nonceHex",
+                "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC8nonceHexSSvg",
+                "moduleName": "Stripe",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nonceSignatureHex",
+            "printedName": "nonceSignatureHex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(py)nonceSignatureHex",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC17nonceSignatureHexSSvp",
+            "moduleName": "Stripe",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)nonceSignatureHex",
+                "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC17nonceSignatureHexSSvg",
+                "moduleName": "Stripe",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cardId:certificates:nonce:nonceSignature:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPPushProvisioningDetailsParams",
+                "printedName": "Stripe.STPPushProvisioningDetailsParams",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)initWithCardId:certificates:nonce:nonceSignature:",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC6cardId12certificates5nonce0I9SignatureACSS_Say10Foundation4DataVGA2Jtcfc",
+            "moduleName": "Stripe",
+            "objc_name": "initWithCardId:certificates:nonce:nonceSignature:",
+            "declAttributes": [
+              "Required",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "STPPushProvisioningDetailsParams",
+                "printedName": "Stripe.STPPushProvisioningDetailsParams",
+                "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams(im)init",
+            "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsCACycfc",
+            "moduleName": "Stripe",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Stripe@objc(cs)STPPushProvisioningDetailsParams",
+        "mangledName": "$s6Stripe32STPPushProvisioningDetailsParamsC",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeApplePay",
+        "printedName": "StripeApplePay",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripeCore",
+        "printedName": "StripeCore",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePayments",
+        "printedName": "StripePayments",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StripePaymentsUI",
+        "printedName": "StripePaymentsUI",
+        "declKind": "Import",
+        "moduleName": "Stripe",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Stripe"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/PKAddPaymentPassRequest+Stripe_Error.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPEphemeralKey.swift",
+      "kind": "BooleanLiteral",
+      "offset": 356,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPEphemeralKey.swift",
+      "kind": "Dictionary",
+      "offset": 976,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPEphemeralKeyManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1001,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPEphemeralKeyManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1623,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPEphemeralKeyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7950,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPEphemeralKeyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8005,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPEphemeralKeyManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8010,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPFakeAddPaymentPassViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12567,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPFakeAddPaymentPassViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12584,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPFakeAddPaymentPassViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12599,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPPushProvisioningDetails.swift",
+      "kind": "Dictionary",
+      "offset": 908,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPPushProvisioningDetailsParams.swift",
+      "kind": "Array",
+      "offset": 1293,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPPushProvisioningDetailsParams.swift",
+      "kind": "Array",
+      "offset": 1417,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/GitHub\/MyMixApp\/Carthage\/Checkouts\/stripe-ios\/Stripe\/StripeiOS\/Source\/STPPushProvisioningDetailsParams.swift",
+      "kind": "Array",
+      "offset": 1482,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.3_16E140\/stripe-ios\/24.8.0\/Build\/Intermediates.noindex\/Stripe.build\/Release-iphonesimulator\/StripeiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 24,
+      "value": "\"stp_card_form_amex_cvc\""
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.3_16E140\/stripe-ios\/24.8.0\/Build\/Intermediates.noindex\/Stripe.build\/Release-iphonesimulator\/StripeiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 920,
+      "length": 20,
+      "value": "\"stp_card_form_back\""
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.3_16E140\/stripe-ios\/24.8.0\/Build\/Intermediates.noindex\/Stripe.build\/Release-iphonesimulator\/StripeiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 21,
+      "value": "\"stp_card_form_front\""
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.3_16E140\/stripe-ios\/24.8.0\/Build\/Intermediates.noindex\/Stripe.build\/Release-iphonesimulator\/StripeiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1238,
+      "length": 14,
+      "value": "\"stp_icon_add\""
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.3_16E140\/stripe-ios\/24.8.0\/Build\/Intermediates.noindex\/Stripe.build\/Release-iphonesimulator\/StripeiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 15,
+      "value": "\"stp_icon_bank\""
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.3_16E140\/stripe-ios\/24.8.0\/Build\/Intermediates.noindex\/Stripe.build\/Release-iphonesimulator\/StripeiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1545,
+      "length": 20,
+      "value": "\"stp_icon_checkmark\""
+    },
+    {
+      "filePath": "\/Users\/gwunleong\/Library\/Caches\/org.carthage.CarthageKit\/DerivedData\/16.3_16E140\/stripe-ios\/24.8.0\/Build\/Intermediates.noindex\/Stripe.build\/Release-iphonesimulator\/StripeiOS.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1707,
+      "length": 19,
+      "value": "\"stp_shipping_form\""
+    }
+  ]
+}

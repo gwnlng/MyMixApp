@@ -1,0 +1,15 @@
+{
+  "originHash" : "85062441538aba2d1fe2fcf7d3fbb87300a2f4adba4b1d337ac3e87e9fe7f9d2",
+  "pins" : [
+    {
+      "identity" : "capture-core-sp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BlinkID/capture-core-sp",
+      "state" : {
+        "revision" : "5d0ae57d265cb5d7dcf255d93dd3421b5c825e46",
+        "version" : "1.2.3"
+      }
+    }
+  ],
+  "version" : 3
+}

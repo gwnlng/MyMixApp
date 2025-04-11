@@ -1,0 +1,205 @@
+{
+  "iOS" : [
+    {
+      "name" : "Stripe",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "container" : "Stripe.xcframework",
+      "identifier" : "ios-arm64",
+      "hash" : "3d68a28b00186781664c918ec0791880bb3f6bb31a300c06137f8ec5fa21c9ac"
+    },
+    {
+      "name" : "Stripe",
+      "container" : "Stripe.xcframework",
+      "identifier" : "ios-arm64",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "hash" : "3d68a28b00186781664c918ec0791880bb3f6bb31a300c06137f8ec5fa21c9ac"
+    },
+    {
+      "container" : "Stripe.xcframework",
+      "hash" : "0f927bd71f7c61a035e124395c96c162b310090863a3a6058ea5d0a952afe7f1",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "Stripe",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+    },
+    {
+      "name" : "Stripe",
+      "container" : "Stripe.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "hash" : "0f927bd71f7c61a035e124395c96c162b310090863a3a6058ea5d0a952afe7f1"
+    },
+    {
+      "hash" : "a34719c5da00ee62f452c44ebf90760f17652a32acc98a9920de4c765e86de4b",
+      "name" : "Stripe3DS2",
+      "identifier" : "ios-arm64",
+      "container" : "Stripe3DS2.xcframework"
+    },
+    {
+      "container" : "Stripe3DS2.xcframework",
+      "hash" : "ac0e263077517b9fafd4968cb5fa3ec01db2941aaf1ce8cc81c258d3ac857960",
+      "name" : "Stripe3DS2",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "name" : "Stripe3DS2",
+      "container" : "Stripe3DS2.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "d1d532f282fcc4a46e5c6a569f86bf8f6f36cb59f104de5bde73388321ab2a54"
+    },
+    {
+      "name" : "StripeApplePay",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "identifier" : "ios-arm64",
+      "container" : "StripeApplePay.xcframework",
+      "hash" : "a7d9808de4dba02b08af9f325c7701ff87715d0657395dccb096180c4e9e1560"
+    },
+    {
+      "hash" : "67952ed4f0b2cb6cbd673a764631f291e730f23e9cb49dde6768f03a0c84ff72",
+      "container" : "StripeApplePay.xcframework",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "name" : "StripeApplePay",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    },
+    {
+      "container" : "StripeCameraCore.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "a7af18c6c5a000b03bbad9a44aa361282572af485dc1ce9ec72ab92fb919bd76",
+      "name" : "StripeCameraCore",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+    },
+    {
+      "container" : "StripeCameraCore.xcframework",
+      "identifier" : "ios-arm64",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "hash" : "9eef23aefcf98d9f3d45d99c709e38660e15f62a303efaa418ee4e886d8869b0",
+      "name" : "StripeCameraCore"
+    },
+    {
+      "container" : "StripeCardScan.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "139ab16608d23a1090d7dfdf5aa4f9bca19bfe0790d07a8b3d08b6aceeab829e",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "name" : "StripeCardScan"
+    },
+    {
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "identifier" : "ios-arm64",
+      "name" : "StripeCardScan",
+      "container" : "StripeCardScan.xcframework",
+      "hash" : "33df7dfd1a92e657a5e6e1c60894b7b611758d5f5837622486d5602ae55a4223"
+    },
+    {
+      "container" : "StripeConnect.xcframework",
+      "hash" : "ac16622d3efa7e97fd817760862d4e7b7bf60d5a054af59b7b4c0763f2f3bf84",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "StripeConnect"
+    },
+    {
+      "hash" : "a3685488abfefebd6a5a48edba3462bcdbe6d91ac237b58f5fee4599058faa7d",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "container" : "StripeConnect.xcframework",
+      "name" : "StripeConnect",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "identifier" : "ios-arm64",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "name" : "StripeCore",
+      "container" : "StripeCore.xcframework",
+      "hash" : "94f0da6e984e06da144a969a08b92f6092d2265e7a6d9724fcb6e7f4c95e15cc"
+    },
+    {
+      "container" : "StripeCore.xcframework",
+      "hash" : "e326eb9c4297cad4943ecf0722ff3d1d068c48cdb34ccc9dc6f827cb10981311",
+      "name" : "StripeCore",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+    },
+    {
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "name" : "StripeFinancialConnections",
+      "hash" : "759480bed4150dee105a43c7b4517fdca79edaccc7133d158a9a16088ed33565",
+      "container" : "StripeFinancialConnections.xcframework",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "name" : "StripeFinancialConnections",
+      "container" : "StripeFinancialConnections.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "ec13967b81cb76c4c1bb79e1e255a00a8ef8ce63e9d668647f20b84d455ec4be",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+    },
+    {
+      "name" : "StripeIdentity",
+      "container" : "StripeIdentity.xcframework",
+      "hash" : "22eccb16f495d902523e0dc987a1f360aa2f3202426ae5216406bd1399e57353",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "cc70863fec3db102bbc0eda5eeb3539830fdb02c68db40af4f94fcba1a88f07d",
+      "container" : "StripeIdentity.xcframework",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "name" : "StripeIdentity"
+    },
+    {
+      "hash" : "78583a0a007ee5300a04e211e0bf107fd7619df74146b37ff64bc1fec225f468",
+      "name" : "StripePaymentSheet",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "identifier" : "ios-arm64",
+      "container" : "StripePaymentSheet.xcframework"
+    },
+    {
+      "name" : "StripePaymentSheet",
+      "container" : "StripePaymentSheet.xcframework",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "hash" : "2d0cddda4b97debbb0893493b96f3feb864d09c147eafc8fb6efd7dbce381864",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+    },
+    {
+      "hash" : "f1c92b57876302a1142fbc5117d254f1894e0021c14cbf5b459c41717544c4d5",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "container" : "StripePayments.xcframework",
+      "name" : "StripePayments",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "76901492ed8530b5ec883882987c6ba803b906bcc8acf45c9123761cf91ea78b",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "StripePayments",
+      "container" : "StripePayments.xcframework"
+    },
+    {
+      "container" : "StripePaymentsUI.xcframework",
+      "hash" : "5562bc02fc249ca450b404b9531aaf1e5bc7f7634b6ca378d07cce6f7b7c0b5e",
+      "identifier" : "ios-arm64_x86_64-simulator",
+      "name" : "StripePaymentsUI",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+    },
+    {
+      "container" : "StripePaymentsUI.xcframework",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "name" : "StripePaymentsUI",
+      "hash" : "5b13c6a4969aa4d5261c9021a310f1d361c1b368b63752da0eb7e51db9fa7c56",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "hash" : "9e50a5cc4e49c79c550aa183ead8d50e41b6971b821fe26da6024b69d766b0a3",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "container" : "StripeUICore.xcframework",
+      "name" : "StripeUICore",
+      "identifier" : "ios-arm64"
+    },
+    {
+      "container" : "StripeUICore.xcframework",
+      "name" : "StripeUICore",
+      "hash" : "f2ce100f299b62e89942c3d31b0805887a28a952c31c906dc110767b94309fe7",
+      "swiftToolchainVersion" : "6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)",
+      "identifier" : "ios-arm64_x86_64-simulator"
+    }
+  ],
+  "commitish" : "24.8.0"
+}

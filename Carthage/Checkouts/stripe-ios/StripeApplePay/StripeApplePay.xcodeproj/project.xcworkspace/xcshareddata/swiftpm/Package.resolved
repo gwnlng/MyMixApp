@@ -1,0 +1,15 @@
+{
+  "originHash" : "55dfee311e4e62bc12e599f15560ce97fddaabd1d8aa24b0bd7a138ac0b1a07d",
+  "pins" : [
+    {
+      "identity" : "ohhttpstubs",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/davidme-stripe/OHHTTPStubs",
+      "state" : {
+        "branch" : "stripe-mock",
+        "revision" : "5e90dfd42873ab8de026735d0725ad618b8ca7dd"
+      }
+    }
+  ],
+  "version" : 3
+}

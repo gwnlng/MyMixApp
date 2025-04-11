@@ -1,0 +1,6 @@
+framework module StripeConnect {
+  umbrella header "StripeConnect.h"
+  export *
+
+  module * { export * }
+}

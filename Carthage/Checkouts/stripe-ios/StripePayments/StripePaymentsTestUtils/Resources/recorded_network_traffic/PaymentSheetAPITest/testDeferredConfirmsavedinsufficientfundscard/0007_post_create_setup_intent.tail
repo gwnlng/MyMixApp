@@ -1,0 +1,18 @@
+POST
+https:\/\/stp-mobile-ci-test-backend-e1b3\.stripedemos\.com\/create_setup_intent$
+402
+text/html
+Content-Type: text/html;charset=utf-8
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Set-Cookie: rack.session=c3wGYKxll8wXEdHzaB7SDWtCPCbZGjfgjjoenPGEZDyiv5MNXKv3cwkEpZ9tVVye%2FHFn98btD%2BZASOB5vt1lJPdS%2BMryugHW%2BhBnP%2BzkzzGfVHdldUkIx6Ibd3rRLnZNWiOqC%2FHJxSDWq66DqXUoK19s2YfdQLtl6mIkBSm827DAnFiuf9aGcwPajDHbwPQiNANdwrRgoePXAAXnmwdxAREmXhdjddlDoK8moVVhY7M%3D; path=/
+Server: Google Frontend
+x-cloud-trace-context: e0ac16a8339170d6edaea6c36f6478f2
+Via: 1.1 google
+x-xss-protection: 1; mode=block
+Date: Thu, 02 Jan 2025 17:18:02 GMT
+x-robots-tag: noindex, nofollow
+Content-Length: 61
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+
+Error creating SetupIntent: Your card has insufficient funds.
